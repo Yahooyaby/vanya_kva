@@ -28,7 +28,7 @@ if (!empty($text)) {
         <div><b><?= $result ?></b></div><br>
     <?php endif; ?>
     <form action="feedback.php" method="post">
-        <label for="text">Введите ваш текст:</label><br>
+        <label for="text">Введите не ваш текст:</label><br>
         <textarea name="text" id="text" cols="55" rows="5"></textarea><br>
         <input type="submit" value="Отправить">
     </form>
