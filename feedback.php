@@ -1,6 +1,6 @@
 <?php
 $result = null;
-$text = $_POST['text'] ?? '';
+$text = isset($_POST['text']);
 
 if (!empty($text)) {
     $datetime = date(DATE_ATOM);
